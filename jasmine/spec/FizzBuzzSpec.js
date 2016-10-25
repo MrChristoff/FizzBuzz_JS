@@ -43,5 +43,8 @@ describe('FizzBuzz', function() {
     it('FizzBuzz', function() {
       expect(fizzbuzz.fizzOrBuzz(15)).toBe("FizzBuzz");
     });
+    it('number', function() {
+      expect(fizzbuzz.fizzOrBuzz(7)).toBe(7);
+    });
   });
 });

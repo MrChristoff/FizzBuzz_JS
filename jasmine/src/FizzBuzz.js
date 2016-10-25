@@ -18,6 +18,6 @@ FizzBuzz.prototype.fizzOrBuzz = function (number) {
 } else if (this.isDivisibleByFive(number)) {
     return "Buzz"
 } else {
-    number
+    return number
 }
 };
